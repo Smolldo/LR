@@ -1,10 +1,3 @@
-a = int(input()) 
-b = int(input())
-if a < b:
-	print('"B" is bigger')
-elif a > b:
-	print('asd') 
-else:
-	print('HA?')
-
-input()
+a = 11
+a = (11 ** 802) % 1000
+print('Остача:', + a)
